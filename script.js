@@ -309,3 +309,34 @@ console.log(Math.floor(23.9));
 
 console.log(Math.trunc(-23.3));
 console.log(Math.floor(-23.9));
+
+// 287,460,000,000
+const diameter = 287_460_000_000;
+console.log(diameter);
+
+const priceInCents = 345_99;
+console.log(priceInCents);
+
+const PI = 3.14_15;
+console.log(PI);
+
+console.log(Number('230_000'));
+
+console.log(2 ** 53 - 1);
+console.log(Number.MAX_SAFE_INTEGER);
+
+// Operations
+
+console.log(10000n + 10000n);
+
+// Exeptions
+
+console.log(20n > 15);
+console.log(20n === 20);
+console.log(typeof 20n);
+console.log(20n == '20');
+
+// Divisions
+
+console.log(10n / 3n);
+console.log(10 / 3);
